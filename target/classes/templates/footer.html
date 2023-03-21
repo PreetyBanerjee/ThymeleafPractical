@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8" />
+	<title>Footer Template</title>
+</head>
+<body>
+	<footer id="fragmentTag"
+		th:fragment="footer1(title,subtitle)">
+		<div class="container">
+			<h1 th:text="${title}"></h1>
+			<h1 th:text="${subtitle}"></h1>
+			<h1>About Preety</h1>
+			<h2>Graduate Engineer Trainee</h2>
+			<h1>Feel free to contact and work with me</h1>
+			
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ea veritatis quidem eveniet vitae ullam eos tempora suscipit. Recusandae ullam alias eaque eveniet laudantium nemo voluptate sint eligendi magnam officia deleniti perspiciatis maxime nesciunt similique architecto dolorum libero minus illum natus excepturi ipsa accusamus nulla totam expedita pariatur impedit atque.</p>
+		</div>
+	</footer>
+</body>
+</html>
